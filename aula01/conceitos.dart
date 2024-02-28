@@ -26,19 +26,17 @@ void main() {
     final hello = 'Hello $nome !';
     print(hello);
   }
-              
+
   greet('João');
   greet('xpto');
-  
+
   //bool isEmpty(String? texto)=> texto.length == 0;
-  
+
   //print(isEmpty(null));
-  
-  int? stringLength(String? nullableString){
-    
+
+  int? stringLength(String? nullableString) {
     return nullableString?.length;
   }
-  
+
   print(stringLength("sdsdsdsdsd"));
-  
 }
